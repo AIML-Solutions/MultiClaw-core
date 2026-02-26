@@ -28,7 +28,16 @@ Scope:
 Suggested source from current workspace:
 - `projects/quantconnect/*`
 
-## 3) `multiclaw-mlflow`
+## 3) `multiclaw-blockchain`
+Scope:
+- token-chain scanning and enrichment
+- smart contract testing/deploy workflows
+- blockchain API + MCP tool interfaces
+
+Suggested source from current workspace:
+- `projects/blockchain-lab/*`
+
+## 4) `multiclaw-mlflow`
 Scope:
 - MLflow experiment tracking and model registry
 - PyTorch/HF training pipelines
@@ -38,7 +47,7 @@ Scope:
 Suggested source from current workspace:
 - `projects/mlflow-lab/*`
 
-## 4) (Optional later) `multiclaw-cloudfinops`
+## 5) (Optional later) `multiclaw-cloudfinops`
 Scope:
 - cloud cost telemetry
 - runtime policy, budgets, rightsizing automation
