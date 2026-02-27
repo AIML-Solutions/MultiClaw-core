@@ -1,11 +1,14 @@
-# MultiClaw Repository Topology (Proposed)
+# MultiClaw Repository Topology (Display Names + URL Slugs)
 
 ## Objective
 Separate concerns so each lane can evolve with focused permissions, CI, and ownership while still interoperating.
 
+> Naming convention: **Display names use caps** (e.g., `MultiClaw-MLFlow`) even when GitHub URL slugs remain lowercase.
+
 ## Recommended Repo Set
 
-## 1) `multiclaw-core`
+## 1) `MultiClaw-Core`  
+URL slug: `multiclaw-core`
 Scope:
 - OpenClaw orchestration patterns
 - Skill architecture patterns
@@ -17,7 +20,8 @@ Suggested source from current workspace:
 - shared architecture/reporting automation scripts
 - non-domain-specific skills templates
 
-## 2) `multiclaw-quant`
+## 2) `MultiClaw-Quant-Tools`  
+URL slug: `multiclaw-quant`
 Scope:
 - QuantConnect LEAN workflows
 - data pipelines, ingestion, validation
@@ -28,7 +32,8 @@ Scope:
 Suggested source from current workspace:
 - `projects/quantconnect/*`
 
-## 3) `multiclaw-blockchain`
+## 3) `MultiClaw-Blockchain`  
+URL slug: `multiclaw-blockchain`
 Scope:
 - token-chain scanning and enrichment
 - smart contract testing/deploy workflows
@@ -37,7 +42,8 @@ Scope:
 Suggested source from current workspace:
 - `projects/blockchain-lab/*`
 
-## 4) `multiclaw-mlflow`
+## 4) `MultiClaw-MLFlow`  
+URL slug: `multiclaw-mlflow`
 Scope:
 - MLflow experiment tracking and model registry
 - PyTorch/HF training pipelines
@@ -47,7 +53,8 @@ Scope:
 Suggested source from current workspace:
 - `projects/mlflow-lab/*`
 
-## 5) `multiclaw-llm`
+## 5) `MultiClaw-LLM`  
+URL slug: `multiclaw-llm`
 Scope:
 - LangChain/LangGraph agent engineering
 - model routing, benchmarks, and evaluation gates
@@ -56,7 +63,8 @@ Scope:
 Suggested source from current workspace:
 - `projects/llm-dept/*`
 
-## 6) `multiclaw-frontend`
+## 6) `MultiClaw-Frontend`  
+URL slug: `multiclaw-frontend`
 Scope:
 - Next.js dashboards and visualization products
 - options/greeks and crypto analytics UX
@@ -65,7 +73,8 @@ Scope:
 Suggested source from current workspace:
 - `projects/frontend-studio/*`
 
-## 7) `multiclaw-public-library`
+## 7) `MultiClaw-Public-Library`  
+URL slug: `multiclaw-public-library`
 Scope:
 - living technical documentation and onboarding assets
 - architecture playbooks, examples, and stack guides
@@ -73,7 +82,18 @@ Scope:
 Suggested source from current workspace:
 - `projects/multiclaw-public-library/*`
 
-## 8) (Optional later) `multiclaw-cloudfinops`
+## 8) `ProRepoAgentOps`
+Scope:
+- cross-repo operational discipline
+- quality gates, release policy, and execution hygiene
+- deployment/automation oversight patterns
+
+## 9) `SnorkelTools`
+Scope:
+- specialized utilities and support tooling
+- reusable helpers for data/agentic workflows
+
+## 10) (Optional later) `MultiClaw-CloudFinOps`
 Scope:
 - cloud cost telemetry
 - runtime policy, budgets, rightsizing automation
@@ -97,7 +117,7 @@ Scope:
 - container/image checks where relevant
 
 ## Migration pattern
-1. Create empty GitHub repos (private)
+1. Create empty GitHub repos (private/public as staged)
 2. Initialize local git in each project lane
 3. Add `.gitignore` tuned per lane
 4. Commit baseline scaffold

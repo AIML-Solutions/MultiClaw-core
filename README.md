@@ -1,10 +1,10 @@
-# MultiClaw Core 🦞
+# MultiClaw-Core 🦞
 
 [![Core Quality Gate](https://github.com/AIML-Solutions/multiclaw-core/actions/workflows/ci.yml/badge.svg)](https://github.com/AIML-Solutions/multiclaw-core/actions/workflows/ci.yml)
 [![Website](https://img.shields.io/badge/site-live-0ea5e9)](https://aiml-solutions.github.io/multiclaw-frontend/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e.svg)](LICENSE)
 
-**MultiClaw Core** is the architecture + governance command layer for AIML Solutions.
+**MultiClaw-Core** is the architecture + governance command layer for AIML Solutions.
 
 It defines how specialized departments (quant, mlflow, llm, blockchain, frontend, docs) operate with clear boundaries, measurable outputs, and cost-aware model routing.
 
@@ -19,13 +19,15 @@ MultiClaw avoids the common “single giant AI project” failure mode by separa
 
 ## 🦞 Ecosystem map
 
-- [`multiclaw-core`](https://github.com/AIML-Solutions/multiclaw-core)
-- [`multiclaw-quant`](https://github.com/AIML-Solutions/multiclaw-quant)
-- [`multiclaw-mlflow`](https://github.com/AIML-Solutions/multiclaw-mlflow)
-- [`multiclaw-blockchain`](https://github.com/AIML-Solutions/multiclaw-blockchain)
-- [`multiclaw-llm`](https://github.com/AIML-Solutions/multiclaw-llm)
-- [`multiclaw-frontend`](https://github.com/AIML-Solutions/multiclaw-frontend)
-- [`multiclaw-public-library`](https://github.com/AIML-Solutions/multiclaw-public-library)
+- [**MultiClaw-Core**](https://github.com/AIML-Solutions/multiclaw-core)
+- [**MultiClaw-Quant-Tools**](https://github.com/AIML-Solutions/multiclaw-quant)
+- [**MultiClaw-MLFlow**](https://github.com/AIML-Solutions/multiclaw-mlflow)
+- [**MultiClaw-Blockchain**](https://github.com/AIML-Solutions/multiclaw-blockchain)
+- [**MultiClaw-LLM**](https://github.com/AIML-Solutions/multiclaw-llm)
+- [**MultiClaw-Frontend**](https://github.com/AIML-Solutions/multiclaw-frontend)
+- [**MultiClaw-Public-Library**](https://github.com/AIML-Solutions/multiclaw-public-library)
+- [**ProRepoAgentOps**](https://github.com/AIML-Solutions/ProRepoAgentOps)
+- [**SnorkelTools**](https://github.com/AIML-Solutions/SnorkelTools)
 
 ## 📚 Core documents
 
