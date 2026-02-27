@@ -15,3 +15,6 @@ reports/**/*.raw.log
 
 # Temp
 tmp/
+
+# Local media staging (Drive/WhatsApp drops)
+media/drive-drop/

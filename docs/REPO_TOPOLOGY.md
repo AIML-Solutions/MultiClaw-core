@@ -47,7 +47,33 @@ Scope:
 Suggested source from current workspace:
 - `projects/mlflow-lab/*`
 
-## 5) (Optional later) `multiclaw-cloudfinops`
+## 5) `multiclaw-llm`
+Scope:
+- LangChain/LangGraph agent engineering
+- model routing, benchmarks, and evaluation gates
+- internal LLM query engine APIs
+
+Suggested source from current workspace:
+- `projects/llm-dept/*`
+
+## 6) `multiclaw-frontend`
+Scope:
+- Next.js dashboards and visualization products
+- options/greeks and crypto analytics UX
+- PDF/report rendering surfaces
+
+Suggested source from current workspace:
+- `projects/frontend-studio/*`
+
+## 7) `multiclaw-public-library`
+Scope:
+- living technical documentation and onboarding assets
+- architecture playbooks, examples, and stack guides
+
+Suggested source from current workspace:
+- `projects/multiclaw-public-library/*`
+
+## 8) (Optional later) `multiclaw-cloudfinops`
 Scope:
 - cloud cost telemetry
 - runtime policy, budgets, rightsizing automation
