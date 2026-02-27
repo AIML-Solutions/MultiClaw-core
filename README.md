@@ -1,6 +1,6 @@
 # MultiClaw-Core 🦞
 
-[![Core Quality Gate](https://github.com/AIML-Solutions/multiclaw-core/actions/workflows/ci.yml/badge.svg)](https://github.com/AIML-Solutions/multiclaw-core/actions/workflows/ci.yml)
+[![Core Quality Gate](https://github.com/AIML-Solutions/MultiClaw-core/actions/workflows/ci.yml/badge.svg)](https://github.com/AIML-Solutions/MultiClaw-core/actions/workflows/ci.yml)
 [![Website](https://img.shields.io/badge/site-live-0ea5e9)](https://aiml-solutions.github.io/multiclaw-frontend/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e.svg)](LICENSE)
 
@@ -19,9 +19,9 @@ MultiClaw avoids the common “single giant AI project” failure mode by separa
 
 ## 🦞 Ecosystem map
 
-- [**MultiClaw-Core**](https://github.com/AIML-Solutions/multiclaw-core)
-- [**MultiClaw-Quant-Tools**](https://github.com/AIML-Solutions/multiclaw-quant)
-- [**MultiClaw-MLFlow**](https://github.com/AIML-Solutions/multiclaw-mlflow)
+- [**MultiClaw-Core**](https://github.com/AIML-Solutions/MultiClaw-core)
+- [**MultiClaw-Quant-Tools**](https://github.com/AIML-Solutions/MultiClaw-quant-tools)
+- [**MultiClaw-MLFlow**](https://github.com/AIML-Solutions/MultiClaw-MLFlow)
 - [**MultiClaw-Blockchain**](https://github.com/AIML-Solutions/multiclaw-blockchain)
 - [**MultiClaw-LLM**](https://github.com/AIML-Solutions/multiclaw-llm)
 - [**MultiClaw-Frontend**](https://github.com/AIML-Solutions/multiclaw-frontend)

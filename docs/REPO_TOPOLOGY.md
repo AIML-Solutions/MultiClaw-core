@@ -8,7 +8,7 @@ Separate concerns so each lane can evolve with focused permissions, CI, and owne
 ## Recommended Repo Set
 
 ## 1) `MultiClaw-Core`  
-URL slug: `multiclaw-core`
+GitHub path: `AIML-Solutions/MultiClaw-core`
 Scope:
 - OpenClaw orchestration patterns
 - Skill architecture patterns
@@ -21,7 +21,7 @@ Suggested source from current workspace:
 - non-domain-specific skills templates
 
 ## 2) `MultiClaw-Quant-Tools`  
-URL slug: `multiclaw-quant`
+GitHub path: `AIML-Solutions/MultiClaw-quant-tools`
 Scope:
 - QuantConnect LEAN workflows
 - data pipelines, ingestion, validation
@@ -43,7 +43,7 @@ Suggested source from current workspace:
 - `projects/blockchain-lab/*`
 
 ## 4) `MultiClaw-MLFlow`  
-URL slug: `multiclaw-mlflow`
+GitHub path: `AIML-Solutions/MultiClaw-MLFlow`
 Scope:
 - MLflow experiment tracking and model registry
 - PyTorch/HF training pipelines
